@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <style>
+  h1 {text-align:  center;}
+  p {color: red;}
+ </style>
+ <title> Testaroo :) </title>
+ <h1>Testy</h1>
+ <body>
+  <p id="first_text">Body here: Good website is
+   <a href ="https://www.w3schools.com/jsref/dom_obj_event.asp"> https://www.w3schools.com/jsref/dom_obj_event.asp</a>
+  </p>
+  <button id = "first_button" onclick = "first_function()"> Is this a button? </button>
+ </body>
+<script>
+document.write("McTestington" + "<br>" + "<br>")
+var first_variable = Math.PI
+document.write(first_variable)
+document.getElementById("first_button").innerHTML = "This is a button"
+function first_function()
+ {document.getElementById("first_text").innerHTML = "Changed text";}
+</script>
+</html>
